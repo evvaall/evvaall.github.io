@@ -24,3 +24,6 @@ document.querySelectorAll('.contact').forEach(icon=>{
     }
   });
 });
+function ligar(){
+  windows.lacation.href="tel:+244957847477"
+}

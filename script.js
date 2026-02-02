@@ -35,7 +35,7 @@ document.querySelectorAll('.contact').forEach(icon => {
 
     if (rede === 'instagram') {
       window.open(
-        'https://www.instagram.com/#reactivated',
+        'https://www.instagram.com/frany.evandro/',
         '_blank'
       );
     }

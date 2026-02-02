@@ -10,7 +10,7 @@ const observer = new IntersectionObserver(entries => {
 
 reveals.forEach(el => observer.observe(el));
 document.querySelector('img[src*="/assets/whatsapp"]').onclick = () =>{
-  window.open('https://wa.me/+224957847477.', '_blank');
+  window.open('https://wa.me/+244957847477.', '_blank');
 }
 
 document.querySelectorAll('.contact').forEach(icon=>{

@@ -132,6 +132,9 @@ h2{
     font-size: 16px;
     border-color: transparent;
 }
+.icon{
+    color:#00bfa6ce;
+}
 .btn_tel{
     background-color: #fff;
     border-radius: 10px;

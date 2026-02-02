@@ -71,6 +71,9 @@ h1{
 p{
     padding: 10px;
     text-align: center;
+    line-height: 1.5em;
+    max-height: 3em; /* 2 linhas */
+    overflow: hidden;
 }
 i{
     font-size: 26px;

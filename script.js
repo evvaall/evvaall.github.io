@@ -17,10 +17,10 @@ document.querySelectorAll('.contact').forEach(icon=>{
   icon.addEventListener('click', ()=>{
     const rede=icon.dataset.rede;
     if (rede==='facebook'){
-      window.open('https://www.facebook.com/franyevandro',  'blank');
+      window.open('https://www.facebook.com/profile.php?id=61571858821505',  'blank');
     }
     if (rede==='instagram'){
-      window.open('https://www.instagram.com/franyevandro',  'blank');
+      window.open('https://www.instagram.com/#reactivated',  'blank');
     }
   });
 });

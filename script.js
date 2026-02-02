@@ -9,3 +9,18 @@ const observer = new IntersectionObserver(entries => {
 });
 
 reveals.forEach(el => observer.observe(el));
+document.querySelector('img[src*="/assets/whatsapp"]').onclick = () =>{
+  window.open('https://wa.me/+224957847477.', '_blank');
+}
+
+document.querySelectorAll('.contact').forEach(icon=>{
+  icon.addEventListener('click', ()=>{
+    const rede=icon.dataset.rede;
+    if (rede==='facebook'){
+      window.open('https://www.facebook.com/franyevandro',  'blank');
+    }
+    if (rede==='instagram'){
+      window.open('https://www.instagram.com/franyevandro',  'blank');
+    }
+  });
+});

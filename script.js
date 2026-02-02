@@ -25,5 +25,5 @@ document.querySelectorAll('.contact').forEach(icon=>{
   });
 });
 function ligar(){
-  window.lacation.href="tel:+244957847477"
+  window.location.href="tel:+244957847477"
 }

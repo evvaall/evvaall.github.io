@@ -17,13 +17,13 @@ document.querySelectorAll('.contact').forEach(icon=>{
   icon.addEventListener('click', ()=>{
     const rede=icon.dataset.rede;
     if (rede==='facebook'){
-      window.open('https://www.facebook.com/profile.php?id=61571858821505',  'blank');
+      window.open('https://www.facebook.com/profile.php?id=61571858821505',  '_blank');
     }
     if (rede==='instagram'){
-      window.open('https://www.instagram.com/#reactivated',  'blank');
+      window.open('https://www.instagram.com/#reactivated',  '_blank');
     }
   });
 });
 function ligar(){
-  windows.lacation.href="tel:+244957847477"
+  window.lacation.href="tel:+244957847477"
 }

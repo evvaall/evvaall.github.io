@@ -292,6 +292,7 @@ h2{
     justify-content: center;
     align-items: center;
     padding-right: 10px;
+    margin-bottom:20px;
 }
 .flex{
     display: flex;
@@ -416,7 +417,7 @@ h2{
         width: 320px;
         height: 280px;
     }
-    .div-descricao p{
+    .inf-pessoa p{
         line-height: 1.5em;
         max-height: 4em; /* 2 linhas */
         overflow: hidden;

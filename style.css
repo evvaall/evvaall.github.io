@@ -281,9 +281,6 @@ h2{
 }
 .div-descricao p{
     text-align: left;
-    line-height: 1.5em;
-    max-height: 3em; /* 2 linhas */
-    overflow: hidden;
 }
 .apresentacao{
     display: flex;
@@ -419,4 +416,8 @@ h2{
         width: 320px;
         height: 280px;
     }
+    .div-descricao p{
+        line-height: 1.5em;
+        max-height: 4em; /* 2 linhas */
+        overflow: hidden;
 }

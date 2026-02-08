@@ -457,6 +457,9 @@ textarea{
     }
 }
 @media screen and (max-width:778px){
+    body{
+        font-size: 14px;
+    }
     .recomendacao{
         display: grid;
     }
@@ -469,6 +472,28 @@ textarea{
     .img-bolhas{
         width: 350px;
         height: 300px;
+    }
+    footer{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .mais_informacao{
+        display: grid;
+        padding: 10px;
+        padding-bottom: 30px;
+    }
+    .mensagem, .mais-produtos, .contacte-nos{
+        margin: 0px;
+        width: calc(100% - 20px);
+        gap: 0px;
+    }
+    .mensagem p, .mais-produtos p, .contacte-nos p{
+        text-align: left;
+    }
+    .evana_2{
+        margin: 0%;
+        gap: 10px;
     }
 }
 @media screen and (max-width:600px){
@@ -505,5 +530,14 @@ textarea{
         line-height: 1.5em;
         max-height: 4em; /* 2 linhas */
         overflow: hidden;
+    }
+    .mensagem, .mais-produtos, .contacte-nos{
+        width: 100%;
+    }
+    .copy{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
     }
 }

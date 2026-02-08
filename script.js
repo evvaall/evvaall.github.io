@@ -35,7 +35,7 @@ document.querySelectorAll('.contact').forEach(icon => {
 
     if (rede === 'instagram') {
       window.open(
-        'https://www.instagram.com/frany.evandro/',
+        'https://www.instagram.com/evaall283/',
         '_blank'
       );
     }

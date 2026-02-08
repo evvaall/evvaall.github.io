@@ -58,7 +58,7 @@ document.getElementById('btn_contactar').onclick = function() {
         if (!paragrafo.style.maxHeight || paragrafo.style.maxHeight === '4rem'){
           paragrafo.style.maxHeight = '150px';
         } else{
-          paragrafo.style.maxHeight = '4rem';
+          paragrafo.style.maxHeight = '3rem';
         };
       }
     );

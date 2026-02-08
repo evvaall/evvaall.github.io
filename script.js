@@ -47,3 +47,30 @@ document.querySelectorAll('.contact').forEach(icon => {
 function ligar() {
   window.location.href = 'tel:+244957847477';
 }
+
+document.getElementById('btn_contactar').onclick = function() {
+
+  if (window.innerWidth < 600){
+    const fotos = document.querySelectorAll('.foto');
+    const paragrafos = document.querySelectorAll(".txto_completo");
+    paragrafos.forEach(
+      paragrafo=>{
+        if (!paragrafo.style.maxHeight || paragrafo.style.maxHeight === '4rem'){
+          paragrafo.style.maxHeight = '150px';
+        } else{
+          paragrafo.style.maxHeight = '4rem';
+        };
+      }
+    );
+    fotos.forEach(
+      foto=>{
+        const estilo = window.getComputedStyle(foto).display;
+        if (estilo === "none"){
+          foto.style.display = "block";
+        } else{
+          foto.style.display = "none";
+        };
+      }
+    );
+  }
+};

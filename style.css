@@ -233,6 +233,7 @@ h2{
     list-style: decimal;
     margin:  10px 15px 10px 15px;
 } 
+
 .sector_administrativo{
     text-align: left;
     background-color: #00bfa675;
@@ -484,6 +485,9 @@ textarea{
     justify-content: space-between; 
     align-items: center; 
     padding: 10px 10px  10px 0px;
+}
+.sectores h3{
+    text-align:center;
 }
 @media screen and (max-width:1170px){
     .seccao_servico{

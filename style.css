@@ -511,6 +511,20 @@ textarea{
         width: 350px;
         height: 300px;
     }
+    .areas{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec_atendim, .sector_administrativo{
+        width: 100%;
+        margin-top: 20px;
+        overflow-y: auto;
+        padding-top: 10px;
+    }
+    .areas ul{
+        font-size: 14px;  
+    }
     footer{
         display: grid;
         justify-content: center;

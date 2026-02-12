@@ -13,7 +13,7 @@ reveals.forEach(el => observer.observe(el));
 
 
 // WhatsApp
-const whatsappIcon = document.querySelector('img[src*="whatsapp"]');
+const whatsappIcon = document.querySelectorAll('img[src*="whatsapp"]');
 if (whatsappIcon) {
   whatsappIcon.addEventListener('click', () => {
     window.open('https://wa.me/244957847477', '_blank');

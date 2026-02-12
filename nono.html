@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat com Agente</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+    <div class="chat-container">
+    <header class="chat-header">
+        <div class="chat_title">
+            <div class="status-indicator"></div>
+            <h1>evva.all</h1>
+        </div>
+        <a href="index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="white" height="20" width="18" > <!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"/></svg>
+        </a>
+    </header>
+    
+    <div id="chat-box" class="chat-box">
+        <div class="message bot">Olá! Como posso ajudar você hoje?</div>
+    </div>
+
+    <div class="chat-input-area">
+        <input type="text" id="user-input" placeholder="Digite sua mensagem..." autocomplete="off">
+        <button onclick="sendMessage()" id="send-btn">
+            <svg viewBox="0 0 24 24" width="24" height="24">
+                <path fill="currentColor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+            </svg>
+        </button>
+    </div>
+</div>
+  <script src="nono.js">
+      
+  </script>
+
+</body>
+</html>

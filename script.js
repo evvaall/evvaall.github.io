@@ -14,11 +14,11 @@ reveals.forEach(el => observer.observe(el));
 
 // WhatsApp
 const whatsappIcon = document.querySelectorAll('img[src*="whatsapp"]');
-if (whatsappIcon) {
-  whatsappIcon.addEventListener('click', () => {
+  whatsappIcon.forEach(icon=>{
+    icon.addEventListener('click', () => {
     window.open('https://wa.me/244957847477', '_blank');
   });
-}
+});
 
 
 // Redes sociais

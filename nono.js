@@ -15,6 +15,7 @@ const API_URL = "https://evva-all-backend.onrender.com/ask"; // Substitua pela U
           chatBox.scrollTop = chatBox.scrollHeight;
           input.value = "";
 
+          input.disabled = true;
           try {
               const response = await fetch(API_URL, {
                   method: "POST",
@@ -37,6 +38,9 @@ const API_URL = "https://evva-all-backend.onrender.com/ask"; // Substitua pela U
               errorDiv.textContent = "Erro ao conectar com o agente.";
               chatBox.appendChild(errorDiv);
               chatBox.scrollTop = chatBox.scrollHeight;
+          } finally {
+                input.disabled = false;
+                input.focus()
           }
           
       }

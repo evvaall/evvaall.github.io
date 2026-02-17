@@ -168,6 +168,7 @@ h2{
     align-items: center;
     display: flex;
     cursor: pointer;
+    border-color:transparent;
 }
 .btn_contactar, .servico, .contact {
     transition: transform 0.3s ease, box-shadow 0.3s ease;

@@ -1,4 +1,4 @@
-const API_URL = "https://evva-all-backend.onrender.com/ask"; // Substitua pela URL da sua API
+const API_URL = "https://evva-all-backend.onrender.com/ask";
 
       async function sendMessage() {
           const input = document.getElementById("user-input");
@@ -23,7 +23,7 @@ const API_URL = "https://evva-all-backend.onrender.com/ask"; // Substitua pela U
                   body: JSON.stringify({mensagem: message})
               });
               const data = await response.json();
-              console.log("Resposta da API:", data);
+              console.log(data);
 
               // Mostra resposta do agente
               const botDiv = document.createElement("div");
